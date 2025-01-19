@@ -31,11 +31,11 @@ public class PrimeCheckTest {
   // --------------------------------------------------------------- //
   @Test
   public void testNonPrimes() {
-    int range = 10
+    int range = 10;
     for (int i = 1; i < range; i++) {
       for (int j = 2; j < range; j++) {
-        int prod = i * j
-        assertEquals(prod + "isnt a Prime but was detected as one!", false, PrimeCheck.isPrime(prod);
+        int prod = i * j;
+        assertEquals(prod + "isnt a Prime but was detected as one!", false, PrimeCheck.isPrime(prod));
       }
     }
   }
